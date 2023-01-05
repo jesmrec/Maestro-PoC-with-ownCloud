@@ -34,9 +34,9 @@ Example:
 
 Successful execution will return something like:
 
-[](OneFlow.jpg)
+![](one.png)
 
-#### To execute all together
+#### To execute all together
 
 `maestro test -e USERNAME=<username> -e PASSWORD=<pwd> -e URL=<server_url> --format junit .`
 
@@ -44,7 +44,7 @@ The `--format junit` directive tells the system to create a `report.xml` file wi
 
 Successful execution:
 
-[](AllFlows.jpg)
+![](all.png)
 
 ## Documentation
 
