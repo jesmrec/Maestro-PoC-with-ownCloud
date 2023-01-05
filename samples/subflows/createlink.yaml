@@ -1,0 +1,15 @@
+appId: com.owncloud.android
+---
+- longPressOn: Documents
+- tapOn: "Share"
+- tapOn:
+    id: "com.owncloud.android:id/addPublicLinkButton"
+- repeat:
+    times: 2
+    commands:
+      - tapOn:
+          id: "com.owncloud.android:id/shareViaLinkNameValue"
+      - eraseText
+- inputText: "NewLink"
+- back
+- tapOn: "SAVE"

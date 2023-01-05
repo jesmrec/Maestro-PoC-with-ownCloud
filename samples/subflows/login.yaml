@@ -1,0 +1,9 @@
+appId: com.owncloud.android
+---
+- inputText: ${URL}
+- tapOn: "Refresh connection"
+- tapOn: "Username"
+- inputText: ${USERNAME}
+- tapOn: "Password"
+- inputText: ${USERNAME}
+- tapOn: "LOG IN"

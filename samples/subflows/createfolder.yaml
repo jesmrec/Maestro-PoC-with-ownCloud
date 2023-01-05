@@ -1,0 +1,10 @@
+appId: com.owncloud.android
+---
+- tapOn:
+    id: "com.owncloud.android:id/fab_expand_menu_button"
+- tapOn:
+    id: "com.owncloud.android:id/fab_mkdir"
+- tapOn:
+    id: "com.owncloud.android:id/user_input"
+- inputText: 'Quijote'
+- tapOn: "OK"

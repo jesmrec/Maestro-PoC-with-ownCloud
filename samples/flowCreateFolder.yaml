@@ -1,0 +1,10 @@
+appId: com.owncloud.android
+---
+- launchApp
+- runFlow:
+    when:
+      visible: "NEW TO OWNCLOUD?"
+    file: subflows/login.yaml
+- runFlow: subflows/createfolder.yaml
+- assertVisible: "Quijote"
+- stopApp: com.owncloud.android

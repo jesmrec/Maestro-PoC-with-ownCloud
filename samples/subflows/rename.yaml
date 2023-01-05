@@ -1,0 +1,9 @@
+appId: com.owncloud.android
+---
+- longPressOn: Photos
+- tapOn: "More options"
+- tapOn: "Rename"
+- tapOn: "Photos"
+- eraseText
+- inputText: "Pictures"
+- tapOn: "OK"
